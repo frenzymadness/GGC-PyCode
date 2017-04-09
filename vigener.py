@@ -14,7 +14,7 @@ def vigener(text, password, way):
     return vysledek
 
 
-txt = 'Hello, GEEK girls CARROTS'
+txt = 'Hello, we are Geek Girls Carrots Ostrava'
 crypted = vigener(txt, 'pepa', way='crypt')
 decrypted = vigener(crypted, 'pepa', way='decrypt')
 
